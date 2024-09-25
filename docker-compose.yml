@@ -1,0 +1,13 @@
+services:
+  jekyll:
+    image: jekyll/minimal
+    user: root
+    environment:
+      - MSYS_NO_PATHCONV=1
+    volumes:
+      - .:/srv/jekyll
+    working_dir: /srv/jekyll
+    tty: true
+    command: jekyll serve --watch --incremental
+    ports:
+      - "4000:4000"

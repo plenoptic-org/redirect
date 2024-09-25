@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "Founders Grotesk";
+  src: url("/assets/fonts/FoundersGrotesk-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-size: 110%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Founders Grotesk", sans-serif;
+  container-type: inline-size;
+  color: #666;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #333;
+    color: #c1c1c1;
+  }
+  :link,
+  :visited,
+  :hover,
+  :active {
+    color: white;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #f8f9fa;
+    color: #666;
+  }
+  :link,
+  :visited,
+  :hover,
+  :active {
+    color: black;
+  }
+}
+
+header {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+header img {
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: min(90%, 800px);
+  margin-bottom: 4rem;
+}
+
+.emoji {
+  font-size: 1.6rem;
+  display: inline-block;
+  margin-right: 0.6ch;
+  transform: translate(0, 10%);
+}
+
+.badges {
+  margin-top: 4rem;
+}
+
+footer {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+footer img {
+  width: min(30dvw, 300px);
+  margin: 0 auto;
+}
