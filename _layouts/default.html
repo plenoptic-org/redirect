@@ -8,24 +8,27 @@
   </head>
   <body>
     <header>
-      <picture>
-        <source
-          media="(prefers-color-scheme: dark)"
-          srcset="/assets/images/Plenoptic_Logo_CMYK_Full_DarkMode_Wide.svg"
-        />
-        <source
-          media="(prefers-color-scheme: light)"
-          srcset="/assets/images/Plenoptic_Logo_CMYK_Full_Wide.svg"
-        />
-        <img
-          alt="plenoptic logo"
-          src="/assets/images/Plenoptic_Logo_CMYK_Full_Wide.svg"
-        />
-      </picture>
+      <body-width>
+        <picture>
+          <source
+            media="(prefers-color-scheme: dark)"
+            srcset="/assets/images/Plenoptic_Logo_CMYK_Full_DarkMode_Wide.svg"
+          />
+          <source
+            media="(prefers-color-scheme: light)"
+            srcset="/assets/images/Plenoptic_Logo_CMYK_Full_Wide.svg"
+          />
+          <img
+            alt="plenoptic logo"
+            class="plenoptic-logo"
+            src="/assets/images/Plenoptic_Logo_CMYK_Full_Wide.svg"
+          />
+        </picture>
+      </body-width>
     </header>
-    <main>
-      {{ content }}
-      <footer>
+    <main class="body-width">{{ content }}</main>
+    <footer>
+      <body-width>
         <picture>
           <source
             media="(prefers-color-scheme: dark)"
@@ -37,10 +40,11 @@
           />
           <img
             alt="Flatiron Institute logo"
+            class="flatiron-logo"
             src="/assets/images/01-FI-primary-logo-color.png"
           />
         </picture>
-      </footer>
-    </main>
+      </body-width>
+    </footer>
   </body>
 </html>
