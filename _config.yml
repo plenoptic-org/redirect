@@ -18,6 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+source: site
 title: plenoptic
 description: >- # this means to ignore newlines until "baseurl:"
   plenoptic is a python library for model-based synthesis of 
@@ -28,6 +29,10 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://plenoptic.org/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: plenoptic-org
+
+markdown: kramdown
+kramdown:
+  parse_block_html: html
 
 # kramdown:
 #   input: GFM
