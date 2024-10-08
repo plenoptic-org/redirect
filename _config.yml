@@ -30,6 +30,17 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://plenoptic.org/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: plenoptic-org
 
+collections:
+  cards:
+    order:
+      - repo.md
+      - docs.md
+      - install.md
+      - questions.md
+      - presentations.md
+      - examples.md
+      - cite.md
+
 markdown: kramdown
 kramdown:
   parse_block_html: html
@@ -63,4 +74,4 @@ exclude:
 #   - vendor/ruby/
 
 plugins:
-  - jekyll-octicons
+  - jekyll-tabs
