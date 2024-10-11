@@ -109,16 +109,14 @@ footer img {
 @media (prefers-color-scheme: dark) {
   body {
     background-color: rgb(40, 40, 40);
-    color: rgb(193 193 193)
+    color: white;
   }
   header,
   footer {
     background-color: rgb(80 80 80);
   }
   :link,
-  :visited,
-  :hover,
-  :active {
+  :visited {
     color: white;
   }
   .grid.cards>ol>li,
@@ -142,16 +140,14 @@ footer img {
 @media (prefers-color-scheme: light) {
   body {
     background-color: rgb(248, 249, 250);
-    color: rgb(102, 102, 102);
+    color: black;
   }
   header,
   footer {
     background-color: rgb(234 234 234);
   }
   :link,
-  :visited,
-  :hover,
-  :active {
+  :visited {
     color: black;
   }
   .grid.cards>ol>li,
