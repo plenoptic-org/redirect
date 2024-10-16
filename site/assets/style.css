@@ -170,12 +170,17 @@ footer img {
 .grid {
   grid-gap:.5rem;
   display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(min(100%,16rem),1fr));
+  grid-template-columns:repeat(auto-fit,minmax(min(50%,8rem),.5fr));
   margin:3em 0
 }
 .grid.cards>ol,
 .grid.cards>ul {
   display:contents
+}
+.grid.cards>ol>li:last-child:nth-child(odd),
+.grid.cards>ul>li:last-child:nth-child(odd),
+.grid>.card:last-child:nth-child(odd) {
+  grid-column: 2 / span 2;
 }
 .grid.cards>ol>li,
 .grid.cards>ul>li,
@@ -184,7 +189,8 @@ footer img {
   display:block;
   margin:0;
   padding:.8rem;
-  transition:border .25s,box-shadow .25s
+  transition:border .25s,box-shadow .25s;
+  grid-column: auto / span 2;
 }
 .grid.cards>ol>li>hr,
 .grid.cards>ul>li>hr,
