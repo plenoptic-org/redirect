@@ -15,10 +15,6 @@ title: plenoptic
 
 {% include cards.html %}
 
-## <iconify-icon class="emoji" icon="mdi:book-education"></iconify-icon> [Citation guide](https://plenoptic.readthedocs.io/en/latest/citation.html)
-
-If you use plenoptic in a published academic article or presentation, please cite us!
-
 ## Credits
 
 The plenoptic package was intially developed by members of the [Lab for Computational Vision](https://www.cns.nyu.edu/~lcv/) at New York University and is now maintained by [Billy Broderick](https://wfbroderick.com/).
