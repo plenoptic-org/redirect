@@ -27,19 +27,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   plenoptic enable interpretation of model properties through 
   features that are enhanced, suppressed, or discarded.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://plenoptic.org/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://vss.plenoptic.org/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: plenoptic-org
-
-collections:
-  cards:
-    order:
-      - repo.md
-      - docs.md
-      - install.md
-      - questions.md
-      - presentations.md
-      - examples.md
-      - cite.md
 
 markdown: kramdown
 kramdown:
@@ -60,8 +49,8 @@ kramdown:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-exclude:
-  - docker-compose.yml
+# exclude:
+#   - docker-compose.yml
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
@@ -72,6 +61,3 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-plugins:
-  - jekyll-tabs

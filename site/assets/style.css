@@ -304,3 +304,10 @@ footer img {
     -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
     animation: fadein 0.5s, fadeout 0.5s 2.5s;
 }
+
+.notice-light {
+  background-color: #fc0;
+  padding: 1em;
+  border-radius: 4px;
+  display: inline-block;
+}

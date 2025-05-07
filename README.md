@@ -1,6 +1,6 @@
-# plenoptic-web
+# redirect
 
-A landing page for the plenoptic site. Built with Jekyll.
+Simple site where folks can find event-related links.
 
 ## Building locally
 
