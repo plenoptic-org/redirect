@@ -307,6 +307,7 @@ footer img {
 
 .notice-light {
   background-color: #fc0;
+  color: black;
   padding: 1em;
   border-radius: 4px;
   display: inline-block;
