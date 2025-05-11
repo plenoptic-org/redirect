@@ -10,7 +10,8 @@ title: plenoptic
 - Model-optimized stimuli symposium, Friday, May 16, from 1 – 3pm:
   - [Event page](https://www.visionsciences.org/symposia/?sym=52).
   - [Slides from Billy's talk](https://presentations.plenoptic.org/2025-05-16_vss-symposium/slides.html).
-- plenoptic satellite event, Monday, May 19, from 2:30 – 5:30pm **(registration is required)**:
+- plenoptic satellite event, Monday, May 19, from 2:30 – 5:30pm  
+  - REGISTRATION IS REQUIRED, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeZuePECnC1jj0LoLV4hHJxz6zO-SwgXX5Gn9JQXKWCRDL_mQ/viewform).
+  - Bring your laptop!
   - [Event page](https://www.visionsciences.org/2025-plenoptic-satellite/).
-  - [Registration form](https://docs.google.com/forms/d/e/1FAIpQLSeZuePECnC1jj0LoLV4hHJxz6zO-SwgXX5Gn9JQXKWCRDL_mQ/viewform).
 - [Main plenoptic website](https://plenoptic.org).
