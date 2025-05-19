@@ -14,4 +14,5 @@ title: plenoptic
   - REGISTRATION IS REQUIRED, please fill out [this form](https://docs.google.com/forms/d/e/1FAIpQLSeZuePECnC1jj0LoLV4hHJxz6zO-SwgXX5Gn9JQXKWCRDL_mQ/viewform).
   - Bring your laptop!
   - [Event page](https://www.visionsciences.org/2025-plenoptic-satellite/).
+  - [Notebooks, etc](https://workshops.plenoptic.org/workshops/VSS-2025/branch/main/index.html)
 - [Main plenoptic website](https://plenoptic.org).
